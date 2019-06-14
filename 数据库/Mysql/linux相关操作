@@ -2,3 +2,4 @@ mysql -uroot -p
 -bash: mysql: command not found 
 ln -s /usr/local/mysql/bin/mysql /usr/bin
 set password=password('123456');
+grant   all   privileges   on   *.*   to   root@"%"   identified   by   '123456'   with   grant   option;
