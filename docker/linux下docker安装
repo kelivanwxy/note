@@ -1,0 +1,6 @@
+yum -y update
+yum install -y docker
+
+service docker start
+service docker stop
+service docker restart
