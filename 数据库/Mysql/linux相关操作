@@ -1,3 +1,4 @@
+1、数据库外部网络连接授权以及初始密码修改（数据库迁移至自己阿里云时使用）
 mysql -uroot -p 
 -bash: mysql: command not found 
 ln -s /usr/local/mysql/bin/mysql /usr/bin
