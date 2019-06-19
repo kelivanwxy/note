@@ -1,4 +1,4 @@
-yum -y update
+yum -y update //命令后面加上 -y 后，当执行该命令后，出现 需要选择确认或取消的时候，（即选择y/n的时候），自动选择y
 yum install -y docker
 
 service docker start
