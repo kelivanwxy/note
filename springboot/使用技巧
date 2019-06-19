@@ -1,1 +1,9 @@
-1
+1、@RequestMapping(value = "/inspection/equipments",method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+2、@RequestBody Map<String,Object> map
+3、@PathVariable Long equipmentId
+4、@RequestParam(value = "taskId",required = true,defaultValue = "false"
+
+
+设置返回数据的类型以及编码，可以是json或者xml：
+produces = {"application/json;charset=UTF-8"}
+produces = {"application/xml;charset=UTF-8"}
