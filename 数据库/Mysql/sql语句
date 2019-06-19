@@ -1,0 +1,2 @@
+1、日格式转换（设备数据迁移时使用）
+DATE_FORMAT(tre.`calibration_date`,'%Y-%m-%d')
