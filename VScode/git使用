@@ -1,0 +1,5 @@
+第一步，克隆远程项目
+git clone ssh://git@192.168.0.101:20086/all/api-doc.git
+第二步，Git Bush Here
+使用Git Bush命令下载至本地
+第三步，使用VScode打开文件
