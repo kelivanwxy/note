@@ -1,1 +1,3 @@
 使用aglio
+
+aglio -i member-api.apib -o ./HTML/member-api.html  
