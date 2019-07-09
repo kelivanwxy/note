@@ -1,0 +1,8 @@
+LinkedHashMap是有序的，进行顺序拦截器配置
+Map<String,String> filterChainMap = new LinkedHashMap<String,String>();
+//4.配置logout过滤器
+filterChainMap.put("/logout", "anon");
+filterChainMap.put("/userLogin","anon");
+filterChainMap.put("/defaultKaptcha","anon");
+filterChainMap.put("/shiro/getValidate","anon");
+filterChainMap.put("/shiro/hasAuthority","anon");
