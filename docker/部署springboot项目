@@ -17,3 +17,13 @@ docker run -d -p 8888:8080 dygw
 (2)镜像标签和仓库：REPOSITORY、TAG
 (3)查看镜像：docker inspect
 (4)删除镜像：docker rmi
+
+
+docker rmi dygw
+unable to remove repository reference "dygw" (must force) - container cb2b51f299d3 is using its referenced image 27a6e0c819ec
+
+查看所有容器
+docker ps -a
+删除容器
+docker rm cb2b51f299d3
+docker rmi dygw
