@@ -12,3 +12,8 @@ docker build -t dygw .
 docker images
 
 docker run -d -p 8888:8080 dygw
+
+(1)列出镜像：docker images
+(2)镜像标签和仓库：REPOSITORY、TAG
+(3)查看镜像：docker inspect
+(4)删除镜像：docker rmi
