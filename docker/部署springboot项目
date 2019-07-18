@@ -1,0 +1,14 @@
+进入到项目路径下
+mvn clean install -Dmaven.test.skip=ture
+
+yum -y update
+yum install -y docker
+service docker start
+service docker stop
+service docker restart
+
+docker build -t dygw .
+
+docker images
+
+docker run -d -p 8888:8080 dygw
