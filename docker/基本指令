@@ -1,0 +1,9 @@
+docker search java 查找java相关的镜像
+docker pull java（镜像名称） 下载镜像  下载慢的话可以配置加速器
+docker images 查看所有镜像
+
+docker save docker.io/java > /home/java.tar.gz 导出一个镜像
+docker rmi docker.io/java  删除一个镜像
+docker load < /home/java.tar.gz 导入一个镜像文件
+
+
