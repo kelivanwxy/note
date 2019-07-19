@@ -7,3 +7,7 @@
 设置返回数据的类型以及编码，可以是json或者xml：
 produces = {"application/json;charset=UTF-8"}
 produces = {"application/xml;charset=UTF-8"}
+
+
+Failed to load property source from location 'classpath:/application.yml'
+修改文件编码格式为utf-8
