@@ -1,1 +1,11 @@
 参考网站 https://www.jianshu.com/p/780a1bf46a1f
+
+Java应用中，日志一般分为以下5个级别：
+ERROR 错误信息
+WARN 警告信息
+INFO 一般信息
+DEBUG 调试信息
+TRACE 跟踪信息
+
+日志框架发展史
+https://www.cnblogs.com/chenhongliang/p/5312517.html
