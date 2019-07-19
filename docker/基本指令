@@ -6,4 +6,15 @@ docker save docker.io/java > /home/java.tar.gz 导出一个镜像
 docker rmi docker.io/java  删除一个镜像
 docker load < /home/java.tar.gz 导入一个镜像文件
 
+docker run -it(开启一个交互界面) --name(给容器取名,可选)wxy dygw(镜像名) bash(运行bash命令行)
+docker run -it --name wxy -p 8888:8080 dygw  bash
+docker run -it --name wxy -v /home/project:/soft --privileged dygw bash
 
+docker pause wxy 停止容器
+docker unpause wxy  恢复容器
+docker stop wxy 彻底停止容器
+docker start -i wxy 恢复容器
+先暂停再删除
+docker rm wxy
+查看容器
+docker ps -a
