@@ -21,3 +21,6 @@ docker start -i wxy 恢复容器
 docker rm wxy
 查看容器
 docker ps -a
+
+进入容器
+docker exec -it  dygw /bin/sh
