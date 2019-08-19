@@ -1,0 +1,3 @@
+Maven配置 每次新启动一个项目配置的setting.xml会变成C盘下的 可以
+file --> other settings --> setting for new project... --> build,execution,deployment --> build tools --> maven
+为每一次新项目应用此设置
